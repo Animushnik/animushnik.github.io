@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(32, 32, 32);
+  font-size: 15px;
+  color: rgb(207, 207, 207);
+  font-family: arial;
+}
+
+.container {
+  width: 1030px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.post {
+  background: url("https://occ-0-38-2773.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABadHeqOj_9smHuvH_-tJHh7j4cGJjkXf7eKoPHFzjSt61XDcvOSZ-ad-39bRgb1sph0GdJ_ivMo83AtxXqAShfPSehPY.jpg?r=aa7");
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+
+.post h2 {
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.post p {
+  max-width: 33rem;
+}
+
+.post a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 2rem 0;
+  background-color: rgb(129, 0, 0);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: ;
+}
+
+.post__left {
+  padding: 3rem 0;
+
+  background: linear-gradient(to right, rgb(32, 32, 32), 70%, #0e79d600);
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.trailer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trailer h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
