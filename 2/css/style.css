@@ -196,7 +196,7 @@ input {
 
 @media (max-width: 900px) {
   .qustion__item {
-    text-align: center;
+    /* text-align: center; */
   }
   .qustion {
     padding: 0 1rem 0 5rem;
