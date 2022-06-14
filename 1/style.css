@@ -67,9 +67,8 @@ body {
   width: 60%;
   max-height: 90%;
   min-height: 50vh;
-  overflow-y: auto;
   border-radius: var(--raundng);
-  padding: 2rem 3rem 5rem;
+  padding: 2rem 1rem 5rem;
   margin-top: 5rem;
   box-shadow: -5px 5px 10px rgb(187, 187, 187);
   background: linear-gradient(45deg, rgb(240, 240, 240), rgb(221, 221, 221));
@@ -79,14 +78,14 @@ body {
 }
 
 #next {
-  position: absolute;
-  bottom: 1rem;
+  /* position: relative; */
+  /* bottom: 1rem; */
   right: 1rem;
 }
 
 #prev {
-  position: absolute;
-  bottom: 1rem;
+  /* position: relative; */
+  /* bottom: 1rem; */
   left: 1rem;
 }
 
@@ -122,6 +121,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
 }
 
 label {
@@ -148,6 +148,11 @@ table {
 table td {
   border: 1px solid var(--colorText);
   padding: 0.6em 2em;
+}
+
+.btns-wrap {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 1080px) {
